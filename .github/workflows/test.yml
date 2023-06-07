@@ -12,6 +12,7 @@ on:
       - ".github/workflows/**"
       - .releaserc.yml
       - "package*.json"
+  workflow_call:
 
 jobs:
   test:
