@@ -29,7 +29,7 @@ ThisBuild / developers := List(
     url = url("https://github.com/cake-lier")
   )
 )
-ThisBuild / description := "A sbt plugin for deploying a scala artifact remotely."
+ThisBuild / description := ""
 ThisBuild / licenses := List(
   "MIT" -> new URL("https://opensource.org/licenses/MIT")
 )
@@ -37,10 +37,8 @@ ThisBuild / homepage := Some(
   url("https://github.com/cake-lier/scala-library-template")
 )
 ThisBuild / pomIncludeRepository := { _ => false }
-
 ThisBuild / publishMavenStyle := true
 ThisBuild / versionScheme := Some("semver-spec")
-ThisBuild / crossPaths := false
 ThisBuild / publishTo := sonatypePublishToBundle.value
 ThisBuild / sonatypeCredentialHost := "s01.oss.sonatype.org"
 
