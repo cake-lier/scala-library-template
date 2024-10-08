@@ -49,7 +49,7 @@ lazy val root = project
   .enablePlugins(AutomateHeaderPlugin)
   .settings(
     name := "scala-library-template",
-    scalaVersion := "3.3.0",
+    scalaVersion := "3.3.4",
     scalacOptions ++= Seq(
       "-deprecation",
       "-Xfatal-warnings"
